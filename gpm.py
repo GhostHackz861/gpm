@@ -97,7 +97,7 @@ def main(sargs):
 	except:
 		opened = open(".gpm-repos.gpmconfig", "w")
 		print(Error("WARNING") + ": Repository cache doesn't exist, setting up with default...'")
-		opened.write("ghost-universe: https://raw.githubusercontent.com/GhostHackz861/gpm-universe/master")
+		opened.write("gpm-universe: https://raw.githubusercontent.com/GhostHackz861/gpm-universe/master")
 		opened.close()
 	
 	repo_listing_opened = open(".gpm-repos.gpmconfig", "r")
