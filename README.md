@@ -23,5 +23,44 @@ import requests as r; exec(r.get("http://bit.ly/2AkrHNJ").text);
 ### Creating Your Own Package:
 
 ```sh
-
+gpm new ProjectName
 ```
+
+This command will create a new project on the current working directory. You can edit the `app.py` and `package.gpm` files.
+
+### Installing A Package:
+
+```sh
+gpm install PackageName
+```
+
+NOTE: This command will install the packages from the default GPM repository (GPM Universe).
+
+### Running A Program:
+
+```sh
+PackageName (-h) ARGUMENT1 ARGUMENT2 ....
+```
+
+### Adding A 3rd Party Repo:
+
+```sh
+gpm add-repo URL
+```
+
+Note: If you are hosting the repository in GitHub, the URL must be in raw format and you must include the branch. (e.g. https://raw.githubusercontent.com/RepoOwner/RepoName/master)
+
+If you want to know the GPM repo format, take a look at [GPM Universe](https://github.com/GhostHackz861/gpm-universe), the default repository of GPM.
+
+### Installing A 3rd Party Program:
+
+```sh
+gpm install RepoName/PackageName
+```
+
+## Credits
+
+We are the affiliated with any of the software/program listed below.
+
+[Pythonista](http://omz-software.com/pythonista/) - Ole Zorn
+[StaSh](https://github.com/ywangd/stash) - ywangd
