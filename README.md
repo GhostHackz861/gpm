@@ -15,7 +15,7 @@ NOTE: Ghost Package Manager (GPM) is built to run on StaSh. Make sure you have a
 To install GPM into Pythonista, copy the code below, go to your Pythonista's console, and paste the code into the line-interpreter at the bottom of the console panel and execute it. This will run the GPM installer script. Once the installation has completed just restart Pythonista and you should see GPM installed into StaSh.
 
 ```python
-import requests as r; exec(r.get("http://bit.ly/2zSKHDX").text);
+import requests as r; exec(r.get("http://bit.ly/2AkrHNJ").text);
 ```
 
 ## Getting Started
